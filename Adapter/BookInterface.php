@@ -1,9 +1,9 @@
 <?php
 
-namespace Acme;
+namespace Adapter;
 
 interface BookInterface
 {
-    public function read();
+    public function open();
     public function turnPage();
 }

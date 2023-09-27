@@ -1,0 +1,31 @@
+{
+  "name": "design-patterns/laracast",
+  "autoload": {
+    "psr-4": {
+      "DesignPatterns\\": "src/",
+      "Adapter\\": "Adapter/",
+      "Template\\": "Template/",
+      "Strategy\\": "Strategy/",
+      "Specifications\\": "Specifications/",
+      "Observer\\": "Observer/"
+    }
+  },
+  "authors": [
+    {
+      "name": "Mohamed Elgebaly",
+      "email": "36784871+M-Abd-ElBaset@users.noreply.github.com"
+    }
+  ],
+  "require-dev": {
+    "phpunit/phpunit": "^10.3",
+    "pestphp/pest": "^2.19"
+  },
+  "config": {
+    "allow-plugins": {
+      "pestphp/pest-plugin": true
+    }
+  },
+  "require": {
+    "illuminate/database": "^10.24"
+  }
+}

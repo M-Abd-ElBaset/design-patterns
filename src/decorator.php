@@ -1,5 +1,7 @@
 <?php
 
+namespace DesignPatterns;
+
 interface CarService
 {
     public function getCost();
